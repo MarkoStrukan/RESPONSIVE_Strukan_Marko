@@ -1,0 +1,659 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --black:#060507;
+    --white:#FFFFFF; 
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background-color:var(--black);
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+h2{
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: calc(8px + 1 * ((100vw - 420px) / 860));
+}
+
+p{
+    font-size: calc(8px + 1 * ((100vw - 420px) / 860));
+    color: rgba(255, 255, 255, .6);
+    font-weight: 300;
+}
+
+.mobilna{
+    display: inherit;
+}
+
+
+.logomob{
+    width: 35px;
+    height: 35px;
+    margin: 35px 0 0 35px;
+    scale: 0.3;
+}
+
+/*box 1*/
+.box1mob{
+position: relative;
+width: 508px;
+height: 1100px;
+margin: auto;
+margin-top: 25px;
+background: #060507;
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 32px;
+}
+
+.naslovmob{
+    position: absolute;
+    left: 22.05%;
+    right: 26.57%;
+    top: 4.36%;
+    bottom: 92.82%;
+}
+
+.vectoricmob{
+    position: absolute;
+    left: 75%;
+    right: 21.85%;
+    top: 3.09%;
+    bottom: 95.45%;
+}
+
+.slika1mob{
+    position: relative;
+    width: 500px;
+    height: 468px;
+    left: 2px;
+    right: 2px;
+    top: 127px;
+    background: url(image.png);
+}
+
+.krugmob{
+    position: absolute;
+    width: 183.28px;
+    height: 177.41px;
+    left: 162px;
+    top: 461px;
+}
+
+.druginaslovmob{
+position: absolute;
+width: 384px;
+height: 18px;
+left: 62px;
+top: 684px;
+font-family: Druk Wide;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 183%;
+display: flex;
+align-items: center;
+color: var(--white);
+text-transform: uppercase;
+font-size: calc(8px + 1 * ((100vw - 420px) / 860));
+}
+
+.tekst1mob{
+position: absolute;
+width: 384px;
+height: 150px;
+left: 62px;
+top: 778px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 200%;
+display: flex;
+align-items: center;
+}
+
+
+/*box2*/
+
+
+.box2mob{
+    position: relative;
+    width: 508px;
+    height: 1100px;
+    margin: auto;
+    margin-top: 25px;
+    background: #060507;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 32px;
+}
+
+.slika2mob{
+    position: absolute;
+    width: 500px;
+    height: 407px;
+    left: 2px;
+    top: 111px;
+}
+
+.japanskimob{
+    position: absolute;
+    bottom: 0;
+    top: 400px;
+    bottom: 550px;
+}
+
+.topspeedmob{
+position: absolute;
+width: auto;
+left: 62px;
+right: 800px;
+top: 460px;
+bottom: 31.27%;
+transform: rotate(-0deg);
+
+}
+
+.sixmob{
+position: absolute;
+width: 184px;
+height: 12px;
+left: calc(50% - 184px/2 - 52px);
+bottom: 486px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.mph1mob{
+position: absolute;
+width: 257px;
+height: 37px;
+left: 110px;
+top: 625px;
+font-family: Druk Wide;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 42px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+}
+
+.kmh1mob{
+position: absolute;
+width: 168px;
+height: 25px;
+left: calc(50% - 168px/2 - 60px);
+bottom: 397px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 25px;
+display: flex;
+align-items: flex-end;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+._5mob{
+position: absolute;
+width: 72px;
+height: 25px;
+left: 62px;
+top: 770px;
+font-family: Druk Wide;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 183%;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+}
+
+.rec374mob{
+position: absolute;
+width: 216px;
+height: 10px;
+left: 146px;
+top: 777px;
+background: #FFFFFF;
+}
+
+.rec375mob{
+position: absolute;
+width: 134px;
+height: 10px;
+left: 146px;
+top: 777px;
+background: #A75B12;
+}
+
+._10mob{
+position: absolute;
+width: 72px;
+height: 25px;
+left: 374px;
+top: 770px;
+font-family: Druk Wide;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 183%;
+display: flex;
+align-items: center;
+text-align: right;
+color: #FFFFFF;
+}
+
+.text2mob{
+position: absolute;
+width: 384px;
+height: 104px;
+left: 62px;
+top: 810px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 300;
+font-size: 10px;
+line-height: 200%;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+}
+
+.rec378mob{
+position: absolute;
+width: 72px;
+height: 72px;
+left: 62px;
+top: 966px;
+border-radius: 32px 0px;
+}
+
+.vectorsrcemob{
+    position: absolute;
+    left: 17.72%;
+    right: 79.13%;
+    top: 90.45%;
+    bottom: 8.27%;
+    background: linear-gradient(96.17deg, #A45410 0%, #FBEFB7 100%);
+}
+
+.cartmob{
+position: absolute;
+width: 230px;
+height: 15px;
+left: 190px;
+top: 995px;
+font-family: Druk Wide;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 183%;
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+.rec378-2mob{
+position: absolute;
+width: 280px;
+height: 72px;
+left: 166px;
+top: 966px;
+border-radius: 32px 0px;
+}
+
+/*box3*/
+
+.box3mob{
+position: relative;
+width: 508px;
+height: 1100px;
+margin: auto;
+margin-top: 25px;
+background: #060507;
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 32px;
+overflow: hidden;
+}
+
+.naslov3mob{
+position: absolute;
+left: 22.05%;
+right: 26.57%;
+top: 4.36%;
+bottom: 92.82%;
+}
+
+.vektoric2mob{
+position: absolute;
+left: 75%;
+right: 21.85%;
+top: 3.09%;
+bottom: 95.45%;
+}
+
+.img6mob{
+position: absolute;
+width: 605px;
+height: 405px;
+left: 0px;
+right: 2px;
+top: 80px;
+}
+
+
+
+
+
+/*DESKTOP*/
+.container{
+    position: relative;
+    margin: 30px auto;
+    width: 100%;
+    max-width: 1300px;
+    height: 90vh;
+    background-color: #060507;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 20px 0;
+}
+
+header .logo{
+    margin-left: 30px;
+    height: 25px;
+    width: 289px;
+    cursor: pointer;
+}
+
+header .logo img{
+    height: 100%;
+    width: 100%;
+}
+
+nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 0 30px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.section{
+    width: 70%;
+    height: 100%;
+}
+
+.d1{
+    width: 75%;
+    height: 100%;
+    position: relative;
+}
+
+.d1 .slike{
+    margin: 60px 0 0 50px;
+    width: 100%;
+    height: 400px;
+}
+
+.button{
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.prethodni,.slijedeći{
+    position: relative;
+    cursor: pointer;
+    z-index: 2000;
+    height: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.crta{
+    width: 250px;
+    display: flex;
+    background-color: #FFFFFF;
+}
+
+.c{
+    width: 10%;
+    height: 3px;
+    position: relative;
+}
+
+.step span{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 2000;
+    background-color: orangered;
+}
+
+.info{
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 112px;
+    left: 60px;
+    z-index: 2000;
+    font-size: 30px;
+}
+
+.info p,h5{
+    color: white;
+    font-weight: 500;
+}
+
+
+.japanski{
+    position: absolute;
+    top: 55%;
+    width: 100%;
+    display: flex;
+    z-index: 1498;
+}
+
+.japanski .text{
+    margin-left: -5px;
+}
+
+.japanski .text:last-child{
+    padding-left: 20px;
+}
+
+.japanski .text h1{
+    font-size: 100px;
+    letter-spacing: 10px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px orangered;
+    filter: brightness(85%);
+}
+
+aside{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    background-color: transparent;
+}
+
+.side{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 60%;
+    background-color: #000;
+    z-index: 1501;
+}
+
+.box{
+    height: 91px;
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, 20% 80%);
+}
+
+
+.left{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 30px 0 0;
+}
+
+
+.left h1{
+    transform: rotate(-90deg);
+    text-transform: uppercase;
+    font-size: 9px;
+    color:#3F3E44;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.right{
+    padding: 5px 0 0 20px;
+    text-align: left;
+    color: #FFFFFF;
+    line-height: 25px;
+}
+
+.right h2{
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+}
+
+.right h3{
+    font-weight: 400;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.right p{
+    font-weight: 400;
+    font-size: 7px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+.gold{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 350px;
+    height: 250px;
+    z-index: 1500;
+}
+
+.slika-dole{
+    width: 180px;
+    height: 130px;
+    position: absolute;
+    bottom: 2%;
+    right: 19%;
+    z-index: 1500;
+}
+
+.slika-gore{
+    width: 160px;
+    height: 100%;
+    max-height: 350px;
+    position: absolute;
+    top: 12%;
+    right: 19%;
+    z-index: 1500;
+}
+
+.slika-logo{
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 15%;
+    right: 40%;
+    z-index: 1500;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-text{
+    padding-bottom:15px ;
+    width: 350px;
+    z-index: 1000;
+    color: #FFFFFF;
+    opacity: 0.3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 9px;
+    line-height: 20px;
+    font-weight: 300;
+}
