@@ -1,0 +1,1 @@
+# RESPONSIVE_Strukan_Marko
